@@ -1,0 +1,10 @@
+In server/controllers/posts.js -> the delete function has a function as (await PostMessage.findOneAndDelete({_id: id});), the findOneAndDelete is the latest function and findOneAndRemove has been depracated by mongoDb
+
+req (Request Object):
+        req contains information about the HTTP request made by the client. It includes data such as parameters, query strings, headers, and the request body. Developers use req to access and process data sent by the client.
+res (Response Object):
+        res is the object used to send a response back to the client. It provides methods for sending data, setting headers, and managing the response. In the code snippet, res.send("Hello World"); is used to send the string "Hello World" as the response to the client.
+
+when using require in Node.js, you cannot directly use object destructuring in the import statement. Object destructuring is a feature of ECMAScript modules (ES6 modules) and is not applicable to CommonJS modules, which is the module system used by Node.js with the require statement.
+
+To use ES6 module in node.js, we should add an extra script as type: module in package.json
