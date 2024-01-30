@@ -1,0 +1,8 @@
+Error  1: (post not found)
+    Received an error for posts not found when axios.post was set to axios.get while creating a post.
+Error 2: (image not rendered to the UI)
+    
+Error 3: (Cross-Origin-Opener-Policy and oAuth 2.0 depracated)
+    Used the new version of Google Auth from the google documentation -> "https://www.npmjs.com/package/@react-oauth/google"
+
+url cannot be passed through as array
